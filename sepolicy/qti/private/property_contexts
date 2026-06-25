@@ -80,6 +80,9 @@ ro.build.version.ota      u:object_r:exported_system_prop:s0
 ro.build.version.svn      u:object_r:exported_system_prop:s0
 ro.build.version.svn.c    u:object_r:exported_system_prop:s0
 
+# Display
+persist.sys.oplus_ltpo_min_fps    u:object_r:system_oplus_adfr_prop:s0
+
 # Touch
 persist.hbp.             u:object_r:system_oplus_touch_prop:s0
 persist.sys.alwayson.    u:object_r:system_oplus_touch_prop:s0

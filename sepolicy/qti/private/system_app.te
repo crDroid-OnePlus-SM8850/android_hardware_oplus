@@ -1,0 +1,3 @@
+# Allow Settings to bridge the selected LTPO minimum refresh rate to the
+# vendor ADFR daemon.
+set_prop(system_app, system_oplus_adfr_prop)
