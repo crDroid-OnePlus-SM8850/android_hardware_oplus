@@ -1,0 +1,9 @@
+type infiniti_ltpo_service, domain, coredomain;
+type infiniti_ltpo_service_exec, system_file_type, exec_type, file_type;
+
+init_daemon_domain(infiniti_ltpo_service)
+binder_use(infiniti_ltpo_service)
+hal_client_domain(infiniti_ltpo_service, hal_graphics_composer)
+
+get_prop(infiniti_ltpo_service, exported_system_prop)
+set_prop(infiniti_ltpo_service, oplus_ltpo_prop)

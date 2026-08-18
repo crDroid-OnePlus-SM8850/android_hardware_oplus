@@ -25,6 +25,9 @@ ro.oppo.market.                  u:object_r:exported_system_prop:s0
 awb.purecolor.enable               u:object_r:exported_system_prop:s0
 awb.wbcore.                        u:object_r:exported_system_prop:s0
 persist.oplus.display.vrr.adfr     u:object_r:exported_system_prop:s0
+sys.oplus.ltpo.mode_switch_pending u:object_r:oplus_ltpo_prop:s0 exact bool
+sys.oplus.ltpo.qsync_active        u:object_r:oplus_ltpo_prop:s0 exact bool
+sys.oplus.ltpo.display_on          u:object_r:oplus_ltpo_prop:s0 exact bool
 persist.sys.display.iris.absent    u:object_r:system_oplus_iris_prop:s0
 ro.oplus.display.                  u:object_r:exported_system_prop:s0
 
